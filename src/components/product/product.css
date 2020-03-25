@@ -1,0 +1,38 @@
+.product {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+    box-shadow: 0 0 3px black;
+}
+
+
+.card-image img{
+    height: 300px;
+    width: 100%;
+}
+
+.card-content{
+    flex: 40%;
+}
+
+
+@media screen and (max-width: 992px){
+    .product {
+        width: 45%;
+    }
+    .card-image img{
+        height: 300px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .product {
+        width: 98%;
+    }
+    .card-image img{
+        height: 350px;
+        width: 100%;
+    }
+}
